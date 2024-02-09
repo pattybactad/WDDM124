@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Coding challenge - API</title>
+</head>
+<body>
+
+    <h1>Coding Challenge</h1>
+    <p>API used is a Dog API showcasing a number of dog breeds when selected.</p> <br>
+
+    <form id="dogForm">
+        <label for="breedSelect">Select a Breed:</label>
+        <select id="breedSelect" name="breed"></select>
+    
+        <button type="button" onclick="callAPI()">Show breed</button>
+    </form>
+
+    <div id="apiResponse" class="image-grid"></div>
+
+    <script src="/js/script.js"></script>
+
+</body>
+
+<footer>
+</footer>
+</html>
